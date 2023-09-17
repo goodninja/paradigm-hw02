@@ -13,7 +13,7 @@
 # ..
 # 1 * 9 = 9
 
-def multiplication_table(n):
+def multiplication(n):
     for i in range(1, n + 1):
         for j in range(1, 10):
             print(f"{i} * {j} = {i * j}")
@@ -21,4 +21,4 @@ def multiplication_table(n):
 
 
 n = int(input("Введи число для n: "))
-multiplication_table(n)
+multiplication(n)
